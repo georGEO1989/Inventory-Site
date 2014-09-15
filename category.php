@@ -7,22 +7,22 @@ class CreateCatagory {
 		$create = 
 		// variables for the form and validations
 		if (!empty($_POST['category_name']) ) {
-			$scanner_name = $_POST['category_name'];
+			$category_name = $_POST['category_name'];
 		} else {
-			$scanner_name = NULL;
+			$category_name = NULL;
 			print "Please enter in Category Name";
 		}
-		if (!empty($_POST['serial_number']) ) { 
-			$serial_number = $_POST['serial_number'];
+		if (!empty($_POST['quantity']) ) { 
+			$serial_number = $_POST['quantity'];
 		} else {
 			$serial_number = NULL;
-			print "Please enter in Serial Number";
+			print "Please enter in quantity";
 		}
-		if (!empty($_POST['ip_address']) ) {
+		if (!empty($_POST['category_type']) ) {
 		    $ip_address = $_POST['ip_address'];
 		} else {
 		    $ip_address = NULL;
-		    print "Please enter IP Address";
+		    print "Please enter the type of product.";
 		}
 
 

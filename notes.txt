@@ -1,0 +1,14 @@
+Category:
+	-Desktop
+	-Laptop
+	-Scanner
+	-Printer
+	-Windows License
+	-Adobe License
+Category Name
+Category Quantity
+Catagory Attributes
+
+
+09/14
+-Need to finish the category class so we can start adding categories of products
